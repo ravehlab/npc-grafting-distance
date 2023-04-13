@@ -23,7 +23,7 @@ Reproducing the analysis:
 3. Download this folder
 4. Using a python that has IMP properly installed, just run from this folder:
 
-$ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv
+      ```$ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv```
 
 --------------
 General Notes:
