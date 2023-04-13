@@ -22,9 +22,8 @@ Reproducing the analysis:
 2. Install IMP (https://integrativemodeling.org/), either from source code or from packages such as conda (https://anaconda.org/conda-forge/imp), or an IMP installation over google colab (see tutorials on IMP website)
 3. Download this folder
 4. Using a python that has IMP properly installed, just run from this folder:
-$ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv
-(or python with any properly working IMP installation and the input file in this folder)
 
+$ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv
 
 --------------
 General Notes:
