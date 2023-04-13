@@ -1,17 +1,18 @@
 ----------------------------
 # 2023-npc-grafting-distance
-----------------------------
 
-Synopsis: 
+### Synopsis: 
 Analyses of grafting distance between FG Nup anchor domains based on Kim et all. 2018 paper 
 
-Manuscript:
+### Manuscript:
 Dynamic molecular mechanism of the nuclear pore complex permeability barrier
 Kozai et al., 2023 https://www.biorxiv.org/content/10.1101/2023.03.31.535055v1
 
-Author: Barak Raveh https://ravehlab.org
+### Author: 
+Barak Raveh https://ravehlab.org
 
-Last updated: April 13, 2023
+### Last updated: 
+April 13, 2023
 
 ----------------------------
 Reproducing the analysis:
