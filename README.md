@@ -3,7 +3,7 @@
 ----------------------------
 
 Synopsis: 
-Analyses of grafting distance between FG Nup anchor domains based on Kim et all. 2019 paper
+Analyses of grafting distance between FG Nup anchor domains based on Kim et all. 2018 paper
 
 Author: Barak Raveh https://ravehlab.org
 
