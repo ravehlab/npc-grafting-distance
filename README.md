@@ -24,6 +24,7 @@ Reproducing the analysis:
 4. Using a python that has IMP properly installed, just run from this folder:
 
       ```$ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv```
+5. The output file ```distance.csv``` contains the pairwise s distance between the anchors (average distance to neareast anchoring site, see general notes below).
 
 --------------
 General Notes:
