@@ -1,10 +1,17 @@
+----------------------------
 # 2023-npc-grafting-distance
-==
-Synopsis: Analyses of grafting distance between FG Nup anchor domains based on Kim et all. 2019 paper
-Author:   Barak Raveh ravehlab.org
+----------------------------
+
+Synopsis: 
+Analyses of grafting distance between FG Nup anchor domains based on Kim et all. 2019 paper
+
+Author: Barak Raveh https://ravehlab.org
+
 Last updated: April 13, 2023
-==
+
+----------------------------
 Reproducing the analysis:
+-------------------------
 
 1. Install Python
 2. Install IMP (https://integrativemodeling.org/), either from source code or from packages such as conda (https://anaconda.org/conda-forge/imp), or an IMP installation over google colab (see tutorials on IMP website)
@@ -12,8 +19,11 @@ Reproducing the analysis:
 4. Using a python that has IMP properly installed, just run from this folder:
 $ python analyze_anchor_distance.py 47-35_1spoke.rmf3 1 distance.csv
 (or python with any properly working IMP installation and the input file in this folder)
-==
+
+
+--------------
 General Notes:
+--------------
 
 1. We used the average distance to the nearest anchoring site within a certain category within a single spoke (e.g. all FG nups, or only cytoplasmic subunits). For example, if we have three anchoring sites in a single spoke, the nearest neighbor (NN) of the first being 2 nm away, the NN of the second being 4 nm away, and the NN of the third being 5 nm away, then s in the calculation is 3.66 nm (just as a fake example, obviously).
 2. We omitted Nup42 - it is too dynamic to be considered here
